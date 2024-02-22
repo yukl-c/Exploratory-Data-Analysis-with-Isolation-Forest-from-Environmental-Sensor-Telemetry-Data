@@ -10,7 +10,7 @@ Device 1c:bf:ce:15:ec:4d sensing in the environment with highly variable tempera
 
 ## Exploratory Data Analysis
 ### Kernel Density Estimation
-The data of timestamp, temperature, humidity, carbon monoxide (CO), and liquid petroleum gas (LPG) were found to the outliners by Kernel Density Estimation respectively. the top and button 2% of data points with the lowest probability densities can be considered outliers. 
+The data of timestamp, temperature, humidity, carbon monoxide (CO), and liquid petroleum gas (LPG) were found to the outliners by Kernel Density Estimation respectively. the top or button 2% of data points with the lowest probability densities can be considered outliers. 
 
 ### Correlation of environmental aspects
 The data of timestamp, temperature, humidity, carbon monoxide (CO), and liquid petroleum gas (LPG) were used to find the correlation. There was a strong correlation between CO and LPG (corr: 1). A scatter diagram between CO and LPG showed that there is a straight line with the orientation from bottom left to top right. All the outliners shown in the graph are both outliners of CO and LPG.
